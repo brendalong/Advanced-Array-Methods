@@ -45,9 +45,20 @@ console.log("reversedColors",reversedColors);
 // }
 // console.log("reversedColors", reversedColors);
 
+//same and call an extra method
+// use comments to avoid re-instantiating a let
+// const colorReverse = (color) => {
+// let reverse = color.split("").reverse().join("");
+// return `<li>${reverse}</li>`
+// }
 
+// let reversedColorsList = ``;
+// let reversedColors = colors.map((color) => {
+// reversedColorsList += colorReverse(color);
+  
+// });
 
-
+// document.getElementById("colors").innerHTML = reversedColorsList;
 
 
 
